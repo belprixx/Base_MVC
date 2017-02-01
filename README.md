@@ -6,7 +6,7 @@ Moteur de Template : Smarty
 
 ## Création d'un Controller
 
-Le nommage de chaque doit etre "xxxController.php"
+Le nommage de chaque Controller doit etre "xxxController.php"
 
 ## Création d'une route
 
