@@ -8,10 +8,18 @@
 
 namespace App\Controller;
 
+require_once './src/Lib/smarty-3.1.29/libs/Smarty.class.php';
 
 class HomeController
 {
-    public function index(){
+    private $Smarty;
 
+    public function __construct()
+    {
+        $this->Smarty = new \Smarty();
+    }
+
+    public function index(){
+        $this->Smarty->display("./src/View/template/home.tpl");
     }
 }
